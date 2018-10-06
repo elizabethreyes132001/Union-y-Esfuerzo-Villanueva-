@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> MATRICULATE </title>
+	<link rel="stylesheet" href="Estil/estilosmatri.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="Imag/A.JPG" type="image/x-icon">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+    
+    
+    <header><span class="lnr lnr-menu" >
+
+ <a href="INDEX2.html"> </span>  <img src="Imag/m2.png"width="40" height="30"></a>
+
+
+        </header></br>
+    
+
+    
+    </br> </br>
+
+<main role="main">
+
+	<section class="content-form">
+
+		<h2 class="sub-title">MATRICULATE</h2>
+
+		<form action="" method="POST" id="registrar-form" >
+		  
+			<div class="form-group width-12">
+				 <div class="width-6">
+				  <input type="text" placeholder="Nombre *" class="form-control" name="nombre" id="nombre" /> 
+				 </div> 
+				 <div class="width-6">
+				  <input type="text" placeholder="Apellidos *" class="form-control" name="apellidos" id="apellidos" /> 
+				 </div>  
+			</div>
+
+			<div class="form-group">
+				 <div class="width-12">
+				 	<input type="text" placeholder="Dirección *" class="form-control" name="direccion" id="direccion" />
+				 </div>
+			</div>
+			  
+			 <div class="form-group width-12">
+				 <div class="width-6">
+				  <input type="text" placeholder="Teléfono *" class="form-control" name="telefono" id="telefono" /> 
+				 </div> 
+				 <div class="width-6">
+				  <input type="number" placeholder="Edad *" class="form-control"  name="edad" id="edad" />
+				 </div>  
+			 </div>
+			    
+			 <div class="form-group width-12">
+				  <h3 class="sub-form"> Sistema</h3>
+				  <div class="width-4">
+				    <label for="casado"><input type="radio" id="casado" name="estado" value="casado"/> Vespertino </label>
+				  </div>
+				  <div class="width-4">
+				    <label for="soltero"><input type="radio" id="soltero" name="estado" value="soltero" /> Matutino </label>
+				  </div>
+				  <div class="width-4">
+				    <label for="viudo"><input type="radio" id="viudo" name="estado" value="viudo" /> Nocturno </label>
+				  </div>
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 <div class="form-group width-12">
+				  <h3 class="sub-form">  Modalidad </h3>
+				  <div class="width-4">
+				    <label for="casado"><input type="radio" id="casado" name="estado" value="casado"/> Ciclo Comun </label>
+				  </div>
+				  <div class="width-4">
+				    <label for="soltero"><input type="radio" id="soltero" name="estado" value="soltero" /> Carrera </label>
+				  </div>
+				
+                     
+                     
+                     
+			 </div>
+			  
+			 <div class="form-group width-12">
+				  <h3 class="sub-form"> Carreras     </h3>
+				  
+				  <div class="width-4">
+				    <label for="programador"><input type="checkbox"  id="programador" name="programador" checked value="programador"/>     Bachillerato Tecnico Profecional en Informatica</label>
+				  </div>
+				  <div class="width-4">
+				    <label for="disenador"><input type="checkbox" id="disenador" name="disenador" value="disenador"/> Bachillerato en Contaduria y Finanzas</label>
+				  </div>
+				  <div class="width-4">
+				    <label for="soporte"><input type="checkbox" id="soporte" name="soporte" value="soporte"/>Bachillerato en Administracion de Empresas </label>
+				  </div>
+			  
+			 </div>
+			 <div class="form-group width-12">
+				  <h3 class="sub-form">  Fecha que desea ingresar</h3>
+				  <input type="date" nombre="fecha" min="2018-02-01" max="2019-12-31" value="2018-02-01" step="1" class="form-control"/> 
+			 </div>
+			 <div class="form-group width-12">
+			      <h3 class="sub-form">Descripción General</h3>
+				  <textarea cols="22" rows="10" class="form-control">
+				    
+				  </textarea>
+			 </div>
+			 <div class="form-group width-12">
+					<input type="submit" value="ENVIAR" class="form-control btn btn-principal" id="btn-registrar"/>
+					 
+			 </div>
+	  
+		</form>
+
+	</section>
+</main>
+<footer>
+	
+</footer>
+	
+</body>
+</html>
